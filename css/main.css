@@ -89,3 +89,19 @@ footer ul{
 footer ul img{
     width: 50px;
 }
+footer p{
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 50px;
+}
+footer div{
+    margin: 0 auto;
+    margin-bottom:50px ;
+    font-size: 20px;
+    width: 300px;
+}
+footer h2{
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 25px;
+}
