@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/joke.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jokes</title>
-</head>
-<body>
-    <header>
-        <nav>
+    <head>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/joke.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jokes</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="flex row">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="data" class="jokes"></div>
+        <footer>
+            <div>
+                <p>Living, learning, & leveling up one day at a time.</p>
+            </div>
+            <h2>Contact Me</h2>
             <ul class="flex row">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
-
+                <li id="gh-link">
+                    <a href="https://github.com/BeboElRashidy"
+                        ><img src="Assets/github.svg" alt="Github"
+                    /></a>
+                </li>
+                <li id="tg-link">
+                    <a href="https://t.me/Belal_ElRashidy"
+                        ><img src="Assets/telegram.svg" alt="Telegram"
+                    /></a>
+                </li>
+                <li id="email">
+                    <a href="mailto:bebo.elrashidy22@gmail.com"
+                        ><img src="Assets/email.svg" alt="Email"
+                    /></a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <div id="data" class="jokes"></div>
-    <footer>
-        <div>
-            <p>Living, learning, & leveling up one day at a time.</p>
-        </div>
-        <h2>Contact Me</h2>
-        <ul class="flex row">
-            <li id="gh-link"><a href="https://github.com/BeboElRashidy"><img src="Assets/github.svg" alt="Github"></a></li>
-            <li id="tg-link"><a href="https://t.me/Belal_ElRashidy"><img src="Assets/telegram.svg" alt="Telegram"></a></li>
-            <li id="email"><a href="mailto:bebo.elrashidy22@gmail.com"><img src="Assets/email.svg" alt="Email"></a></li>
-        </ul>
-        <p>Hand crafted by me &copy; 2023</p>
-    </footer>
-    <script src="main.js"></script>
-</body>
+            <p>Hand crafted by me &copy; 2023</p>
+        </footer>
+        <script src="./dist/bundle.js"></script>
+    </body>
 </html>
